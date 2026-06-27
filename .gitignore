@@ -1,0 +1,41 @@
+# data
+data/
+*.npy
+*.npz
+*.nc
+*.h5
+*.hdf5
+*.mat
+*.zarr
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# outputs
+runs/
+logs/
+outputs/
+checkpoints/
+weights/
+
+# model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# system
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
