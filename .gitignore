@@ -1,5 +1,38 @@
-# data
-data/
+# =========================
+# Keep directory structure, ignore contents
+# =========================
+
+# data: do not upload dataset files
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# runs: do not upload experiment outputs
+runs/**
+!runs/
+!runs/.gitkeep
+
+# logs: do not upload logs
+logs/**
+!logs/
+!logs/.gitkeep
+
+# outputs/checkpoints/weights
+outputs/**
+!outputs/
+!outputs/.gitkeep
+
+checkpoints/**
+!checkpoints/
+!checkpoints/.gitkeep
+
+weights/**
+!weights/
+!weights/.gitkeep
+
+# =========================
+# Large files
+# =========================
 *.npy
 *.npz
 *.nc
@@ -12,27 +45,20 @@ data/
 *.tar
 *.tar.gz
 
-# outputs
-runs/
-logs/
-outputs/
-checkpoints/
-weights/
-
-# model checkpoints
+# Model checkpoints
 *.pt
 *.pth
 *.ckpt
 *.onnx
 
-# python cache
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 .ipynb_checkpoints/
 
-# system
+# System files
 .DS_Store
 Thumbs.db
 
