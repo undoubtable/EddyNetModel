@@ -100,6 +100,12 @@ data/
 | 6 | PSPNet | 80 | 0.9534 | 0.8734 | 0.8870 | 0.9046 | 0.9110 | 0.7752 | 0.7970 | 0.8277 | 0.9323 |
 | 7 | DeepFramework | 75 | 0.9442 | 0.8448 | 0.8674 | 0.8855 | 0.8943 | 0.7313 | 0.7659 | 0.7972 | 0.9188 |
 
+## Metric Visualization
+
+Metric comparison figures are generated under `Figures/03_metric_comparison/`. These figures are intended for paper/report use and will be further refined together with qualitative comparison figures.
+
+DUNet achieves the best reproduced mean Dice and mean IoU. The reproduced results are slightly lower than the paper-reported MIOU but preserve a comparable performance trend, supporting the use of DUNet as the main baseline for subsequent NeurRL experiments.
+
 ## Notes on Reproduction
 
 这些结果是 unified re-implementation，不是 exact paper reproduction。所有模型被迁移到当前仓库的统一数据读取、训练损失、优化设置和评价脚本下，以保证横向比较口径一致。
