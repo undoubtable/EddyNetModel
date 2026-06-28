@@ -1,0 +1,111 @@
+nohup: ignoring input
+device: cuda
+train: (4750, 184, 302) (4750, 184, 302)
+val: (730, 184, 302) (730, 184, 302)
+/ybz/ybz/2026/EddyNetModel/models/DeepFramework/train_scse_deepframework_fullmap.py:481: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(device.type == "cuda"))
+/ybz/ybz/2026/EddyNetModel/models/DeepFramework/train_scse_deepframework_fullmap.py:515: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=(device.type == "cuda")):
+Epoch 001 | loss=0.41921 | anti=0.7064 | cycl=0.7663 | non=0.8821 | mean=0.7849 | miou=0.6521 | acc=0.8339
+  saved best_model.pt
+Epoch 002 | loss=0.30052 | anti=0.7478 | cycl=0.7926 | non=0.9047 | mean=0.8150 | miou=0.6932 | acc=0.8633
+  saved best_model.pt
+Epoch 003 | loss=0.25829 | anti=0.7788 | cycl=0.8117 | non=0.9222 | mean=0.8376 | miou=0.7255 | acc=0.8857
+  saved best_model.pt
+Epoch 004 | loss=0.23199 | anti=0.7763 | cycl=0.8166 | non=0.9181 | mean=0.8370 | miou=0.7244 | acc=0.8814
+Epoch 005 | loss=0.21479 | anti=0.7853 | cycl=0.8167 | non=0.9110 | mean=0.8376 | miou=0.7244 | acc=0.8754
+  saved best_model.pt
+Epoch 006 | loss=0.20226 | anti=0.7897 | cycl=0.8165 | non=0.9198 | mean=0.8420 | miou=0.7313 | acc=0.8842
+  saved best_model.pt
+Epoch 007 | loss=0.19228 | anti=0.7842 | cycl=0.8255 | non=0.9221 | mean=0.8440 | miou=0.7345 | acc=0.8868
+  saved best_model.pt
+Epoch 008 | loss=0.18444 | anti=0.7503 | cycl=0.8072 | non=0.9023 | mean=0.8200 | miou=0.6998 | acc=0.8618
+Epoch 009 | loss=0.17847 | anti=0.8160 | cycl=0.8481 | non=0.9304 | mean=0.8648 | miou=0.7651 | acc=0.9003
+  saved best_model.pt
+Epoch 010 | loss=0.17281 | anti=0.8119 | cycl=0.8339 | non=0.9264 | mean=0.8574 | miou=0.7538 | acc=0.8948
+Epoch 011 | loss=0.16798 | anti=0.8133 | cycl=0.8418 | non=0.9289 | mean=0.8614 | miou=0.7598 | acc=0.8982
+Epoch 012 | loss=0.16380 | anti=0.7976 | cycl=0.8479 | non=0.9281 | mean=0.8579 | miou=0.7551 | acc=0.8963
+Epoch 013 | loss=0.15952 | anti=0.7824 | cycl=0.8357 | non=0.9259 | mean=0.8480 | miou=0.7408 | acc=0.8919
+Epoch 014 | loss=0.15583 | anti=0.8148 | cycl=0.8507 | non=0.9306 | mean=0.8654 | miou=0.7660 | acc=0.9006
+  saved best_model.pt
+Epoch 015 | loss=0.15221 | anti=0.8092 | cycl=0.8490 | non=0.9305 | mean=0.8629 | miou=0.7624 | acc=0.8998
+Epoch 016 | loss=0.14887 | anti=0.8246 | cycl=0.8519 | non=0.9314 | mean=0.8693 | miou=0.7717 | acc=0.9026
+  saved best_model.pt
+Epoch 017 | loss=0.14567 | anti=0.8117 | cycl=0.8504 | non=0.9324 | mean=0.8648 | miou=0.7654 | acc=0.9022
+Epoch 018 | loss=0.14264 | anti=0.8036 | cycl=0.8515 | non=0.9301 | mean=0.8617 | miou=0.7608 | acc=0.8992
+Epoch 019 | loss=0.13971 | anti=0.8140 | cycl=0.8506 | non=0.9313 | mean=0.8653 | miou=0.7659 | acc=0.9013
+Epoch 020 | loss=0.13671 | anti=0.8202 | cycl=0.8576 | non=0.9336 | mean=0.8704 | miou=0.7738 | acc=0.9047
+  saved best_model.pt
+Epoch 021 | loss=0.13393 | anti=0.8299 | cycl=0.8545 | non=0.9362 | mean=0.8735 | miou=0.7784 | acc=0.9082
+  saved best_model.pt
+Epoch 022 | loss=0.13126 | anti=0.8306 | cycl=0.8569 | non=0.9382 | mean=0.8752 | miou=0.7811 | acc=0.9105
+  saved best_model.pt
+Epoch 023 | loss=0.12867 | anti=0.8150 | cycl=0.8487 | non=0.9320 | mean=0.8653 | miou=0.7659 | acc=0.9020
+Epoch 024 | loss=0.12591 | anti=0.8190 | cycl=0.8539 | non=0.9366 | mean=0.8698 | miou=0.7731 | acc=0.9075
+Epoch 025 | loss=0.12337 | anti=0.8011 | cycl=0.8464 | non=0.9321 | mean=0.8599 | miou=0.7582 | acc=0.9008
+Epoch 026 | loss=0.12089 | anti=0.8204 | cycl=0.8552 | non=0.9354 | mean=0.8704 | miou=0.7738 | acc=0.9066
+Epoch 027 | loss=0.11842 | anti=0.8318 | cycl=0.8609 | non=0.9380 | mean=0.8769 | miou=0.7837 | acc=0.9106
+  saved best_model.pt
+Epoch 028 | loss=0.11606 | anti=0.8245 | cycl=0.8552 | non=0.9371 | mean=0.8723 | miou=0.7767 | acc=0.9088
+Epoch 029 | loss=0.11406 | anti=0.8345 | cycl=0.8644 | non=0.9402 | mean=0.8797 | miou=0.7881 | acc=0.9135
+  saved best_model.pt
+Epoch 030 | loss=0.11141 | anti=0.8269 | cycl=0.8625 | non=0.9403 | mean=0.8766 | miou=0.7835 | acc=0.9128
+Epoch 031 | loss=0.10946 | anti=0.8305 | cycl=0.8618 | non=0.9400 | mean=0.8774 | miou=0.7847 | acc=0.9126
+Epoch 032 | loss=0.10699 | anti=0.8329 | cycl=0.8579 | non=0.9376 | mean=0.8762 | miou=0.7825 | acc=0.9102
+Epoch 033 | loss=0.10491 | anti=0.8390 | cycl=0.8663 | non=0.9416 | mean=0.8823 | miou=0.7922 | acc=0.9155
+  saved best_model.pt
+Epoch 034 | loss=0.10306 | anti=0.8344 | cycl=0.8619 | non=0.9384 | mean=0.8782 | miou=0.7857 | acc=0.9114
+Epoch 035 | loss=0.10062 | anti=0.8360 | cycl=0.8641 | non=0.9408 | mean=0.8803 | miou=0.7890 | acc=0.9141
+Epoch 036 | loss=0.09873 | anti=0.8366 | cycl=0.8632 | non=0.9406 | mean=0.8802 | miou=0.7888 | acc=0.9140
+Epoch 037 | loss=0.09702 | anti=0.8334 | cycl=0.8641 | non=0.9396 | mean=0.8790 | miou=0.7871 | acc=0.9127
+Epoch 038 | loss=0.09501 | anti=0.8407 | cycl=0.8658 | non=0.9421 | mean=0.8829 | miou=0.7930 | acc=0.9162
+  saved best_model.pt
+Epoch 039 | loss=0.09326 | anti=0.8377 | cycl=0.8641 | non=0.9417 | mean=0.8812 | miou=0.7904 | acc=0.9154
+Epoch 040 | loss=0.09169 | anti=0.8385 | cycl=0.8640 | non=0.9414 | mean=0.8813 | miou=0.7906 | acc=0.9151
+Epoch 041 | loss=0.08967 | anti=0.8361 | cycl=0.8639 | non=0.9417 | mean=0.8805 | miou=0.7895 | acc=0.9152
+Epoch 042 | loss=0.08795 | anti=0.8399 | cycl=0.8662 | non=0.9422 | mean=0.8828 | miou=0.7929 | acc=0.9162
+Epoch 043 | loss=0.08669 | anti=0.8426 | cycl=0.8681 | non=0.9436 | mean=0.8848 | miou=0.7961 | acc=0.9180
+  saved best_model.pt
+Epoch 044 | loss=0.08533 | anti=0.8392 | cycl=0.8660 | non=0.9422 | mean=0.8825 | miou=0.7925 | acc=0.9162
+Epoch 045 | loss=0.08394 | anti=0.8397 | cycl=0.8641 | non=0.9420 | mean=0.8820 | miou=0.7916 | acc=0.9159
+Epoch 046 | loss=0.08255 | anti=0.8372 | cycl=0.8651 | non=0.9409 | mean=0.8811 | miou=0.7902 | acc=0.9145
+Epoch 047 | loss=0.08130 | anti=0.8412 | cycl=0.8664 | non=0.9430 | mean=0.8835 | miou=0.7941 | acc=0.9172
+Epoch 048 | loss=0.07992 | anti=0.8397 | cycl=0.8671 | non=0.9438 | mean=0.8835 | miou=0.7942 | acc=0.9180
+Epoch 049 | loss=0.07890 | anti=0.8414 | cycl=0.8674 | non=0.9437 | mean=0.8842 | miou=0.7952 | acc=0.9180
+Epoch 050 | loss=0.07773 | anti=0.8352 | cycl=0.8637 | non=0.9411 | mean=0.8800 | miou=0.7886 | acc=0.9144
+Epoch 051 | loss=0.07670 | anti=0.8444 | cycl=0.8671 | non=0.9432 | mean=0.8849 | miou=0.7962 | acc=0.9177
+  saved best_model.pt
+Epoch 052 | loss=0.07559 | anti=0.8393 | cycl=0.8657 | non=0.9426 | mean=0.8825 | miou=0.7926 | acc=0.9165
+Epoch 053 | loss=0.07466 | anti=0.8418 | cycl=0.8676 | non=0.9435 | mean=0.8843 | miou=0.7954 | acc=0.9178
+Epoch 054 | loss=0.07369 | anti=0.8441 | cycl=0.8671 | non=0.9434 | mean=0.8849 | miou=0.7961 | acc=0.9178
+Epoch 055 | loss=0.07283 | anti=0.8424 | cycl=0.8669 | non=0.9435 | mean=0.8843 | miou=0.7953 | acc=0.9178
+Epoch 056 | loss=0.07205 | anti=0.8425 | cycl=0.8672 | non=0.9434 | mean=0.8844 | miou=0.7955 | acc=0.9178
+Epoch 057 | loss=0.07111 | anti=0.8440 | cycl=0.8678 | non=0.9440 | mean=0.8853 | miou=0.7968 | acc=0.9185
+  saved best_model.pt
+Epoch 058 | loss=0.07036 | anti=0.8440 | cycl=0.8674 | non=0.9436 | mean=0.8850 | miou=0.7964 | acc=0.9181
+Epoch 059 | loss=0.06957 | anti=0.8437 | cycl=0.8667 | non=0.9439 | mean=0.8848 | miou=0.7961 | acc=0.9183
+Epoch 060 | loss=0.06885 | anti=0.8433 | cycl=0.8675 | non=0.9435 | mean=0.8848 | miou=0.7960 | acc=0.9179
+Epoch 061 | loss=0.06826 | anti=0.8438 | cycl=0.8677 | non=0.9441 | mean=0.8852 | miou=0.7968 | acc=0.9187
+Epoch 062 | loss=0.06758 | anti=0.8433 | cycl=0.8665 | non=0.9429 | mean=0.8842 | miou=0.7952 | acc=0.9173
+Epoch 063 | loss=0.06704 | anti=0.8437 | cycl=0.8654 | non=0.9427 | mean=0.8839 | miou=0.7946 | acc=0.9170
+Epoch 064 | loss=0.06644 | anti=0.8440 | cycl=0.8672 | non=0.9436 | mean=0.8849 | miou=0.7963 | acc=0.9180
+Epoch 065 | loss=0.06594 | anti=0.8439 | cycl=0.8675 | non=0.9437 | mean=0.8850 | miou=0.7964 | acc=0.9182
+Epoch 066 | loss=0.06555 | anti=0.8438 | cycl=0.8668 | non=0.9433 | mean=0.8846 | miou=0.7958 | acc=0.9177
+Epoch 067 | loss=0.06508 | anti=0.8440 | cycl=0.8675 | non=0.9441 | mean=0.8852 | miou=0.7967 | acc=0.9187
+Epoch 068 | loss=0.06472 | anti=0.8442 | cycl=0.8672 | non=0.9437 | mean=0.8851 | miou=0.7965 | acc=0.9183
+Epoch 069 | loss=0.06434 | anti=0.8441 | cycl=0.8672 | non=0.9438 | mean=0.8850 | miou=0.7964 | acc=0.9183
+Epoch 070 | loss=0.06402 | anti=0.8448 | cycl=0.8675 | non=0.9440 | mean=0.8854 | miou=0.7971 | acc=0.9186
+  saved best_model.pt
+Epoch 071 | loss=0.06369 | anti=0.8444 | cycl=0.8675 | non=0.9439 | mean=0.8853 | miou=0.7968 | acc=0.9185
+Epoch 072 | loss=0.06352 | anti=0.8445 | cycl=0.8673 | non=0.9440 | mean=0.8853 | miou=0.7968 | acc=0.9186
+Epoch 073 | loss=0.06334 | anti=0.8446 | cycl=0.8671 | non=0.9439 | mean=0.8852 | miou=0.7967 | acc=0.9185
+Epoch 074 | loss=0.06313 | anti=0.8444 | cycl=0.8672 | non=0.9438 | mean=0.8851 | miou=0.7966 | acc=0.9183
+Epoch 075 | loss=0.06297 | anti=0.8448 | cycl=0.8674 | non=0.9442 | mean=0.8855 | miou=0.7972 | acc=0.9188
+  saved best_model.pt
+Epoch 076 | loss=0.06287 | anti=0.8445 | cycl=0.8669 | non=0.9439 | mean=0.8851 | miou=0.7966 | acc=0.9185
+Epoch 077 | loss=0.06276 | anti=0.8446 | cycl=0.8673 | non=0.9441 | mean=0.8853 | miou=0.7969 | acc=0.9187
+Epoch 078 | loss=0.06267 | anti=0.8443 | cycl=0.8673 | non=0.9438 | mean=0.8851 | miou=0.7966 | acc=0.9184
+Epoch 079 | loss=0.06266 | anti=0.8444 | cycl=0.8670 | non=0.9439 | mean=0.8851 | miou=0.7966 | acc=0.9184
+Epoch 080 | loss=0.06271 | anti=0.8443 | cycl=0.8670 | non=0.9438 | mean=0.8850 | miou=0.7965 | acc=0.9184
+best mean dice: 0.8854884202280049
+outputs: runs/DeepFramework/scse_fullmap_base32_e80

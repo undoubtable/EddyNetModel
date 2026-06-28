@@ -16,6 +16,9 @@ runs/**
 logs/**
 !logs/
 !logs/.gitkeep
+!logs/01_baseline_reproduction/
+!logs/01_baseline_reproduction/*.log
+!logs/01_baseline_reproduction/README.md
 
 # outputs/checkpoints/weights
 outputs/**
@@ -28,7 +31,7 @@ checkpoints/**
 
 weights/**
 !weights/
-!weights/.gitkeep
+!weights/README.md
 
 # =========================
 # Large files
@@ -37,6 +40,7 @@ weights/**
 *.npz
 *.nc
 *.h5
+*.weights.h5
 *.hdf5
 *.mat
 *.zarr
