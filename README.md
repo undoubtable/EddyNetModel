@@ -106,6 +106,14 @@ Metric comparison figures are generated under `Figures/03_metric_comparison/`. T
 
 DUNet achieves the best reproduced mean Dice and mean IoU. The reproduced results are slightly lower than the paper-reported MIOU but preserve a comparable performance trend, supporting the use of DUNet as the main baseline for subsequent NeurRL experiments.
 
+## Qualitative Prediction Comparison
+
+下图展示了同一个 SCSE-Eddy validation sample 上 Ground truth 与 7 个 baseline 模型预测结果的对比，包括 DUNet、EddyNet、PSPNet、MU-Net、DCNN、AutoDetectionAttention 和 DeepFramework。
+
+![SCSE-Eddy qualitative comparison](Figures/04_qualitative_comparison/scse_qualitative_val_idx0000.png)
+
+DUNet 是当前 unified baseline 中指标最强的模型。该 qualitative comparison 将作为后续 Figure-NeurRL / NeurRL verifier 分析和修正实验的视觉基准。
+
 ## Notes on Reproduction
 
 这些结果是 unified re-implementation，不是 exact paper reproduction。所有模型被迁移到当前仓库的统一数据读取、训练损失、优化设置和评价脚本下，以保证横向比较口径一致。
